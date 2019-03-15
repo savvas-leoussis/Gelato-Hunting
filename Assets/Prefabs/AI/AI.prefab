@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010375999756}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010375999756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013956059590}
+  - 114: {fileID: 114000013945111170}
+  - 82: {fileID: 82000013495226064}
+  m_Layer: 0
+  m_Name: AI
+  m_TagString: Paparia
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013956059590
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010375999756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.47753906, y: 0.32043457, z: -23.828125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &82000013495226064
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010375999756}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243000010213150772, guid: 341d5c9f2a3afef45990dfff75a9099e,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114000013945111170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010375999756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 040af4995fba8854a9c503035d212181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  Coupons: {fileID: 0}
+  IceCreams:
+  - {fileID: 126640, guid: 3fad2c2601091624e811e3a35decf301, type: 2}
+  - {fileID: 1000013731776570, guid: 50395732a1b3a6141ac5e34e351b28c8, type: 2}
+  - {fileID: 113058, guid: f90064c660d1bdb40b315e00a4c23bac, type: 2}
+  - {fileID: 125186, guid: d64bee9c884cc1d40be7bea41108c759, type: 2}
+  - {fileID: 125144, guid: f3310fd89eb726944a18c8a36cf2188f, type: 2}
+  - {fileID: 108338, guid: b650e47e038628d409f328551cc3430d, type: 2}
+  - {fileID: 113748, guid: de2f0e602bf237f479a48fc222f9627f, type: 2}
+  - {fileID: 126640, guid: 3fad2c2601091624e811e3a35decf301, type: 2}
+  SimpleIceCreams:
+  - {fileID: 126640, guid: 3fad2c2601091624e811e3a35decf301, type: 2}
+  - {fileID: 126578, guid: 84e7b895acd49bd459c8da344420883b, type: 2}
+  - {fileID: 187480, guid: 13a56ba55d092764eb2c80d12f226c22, type: 2}
+  - {fileID: 128168, guid: a3bd0bb425ab3224fb1d628b8aa15802, type: 2}
+  Cups:
+  - {fileID: 1000011754465682, guid: 4adea4ff6217cab4093c6d582a8e0b8b, type: 2}
+  - {fileID: 1000013838502462, guid: 39522260fa3b4354cbbb515092831b48, type: 2}
+  - {fileID: 1000010268913490, guid: a5486a365bf92a548b4910d80b4fd366, type: 2}
+  - {fileID: 1000010735073504, guid: 50032cd4706e4864683d982b5ccc2df2, type: 2}

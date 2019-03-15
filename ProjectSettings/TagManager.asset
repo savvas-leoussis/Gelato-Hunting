@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Simple
+  - Extra 1
+  - Extra 2
+  - Destructor
+  - Double
+  - Maximize
+  - Minimize
+  - Slow
+  - Score Text
+  - Wall 1
+  - Wall 2
+  - Wall 3
+  - Wall 4
+  - Wall 5
+  - Wall 6
+  - Wall 7
+  - Wall 8
+  - Cup 1
+  - Cup 2
+  - Cup 3
+  - Cup 4
+  - SceneFader
+  - Paparia
+  - Wall 9
+  - Wall 10
+  - Wall 11
+  - Wall 12
+  - Wall 13
+  - Wall 14
+  - Wall 15
+  - Wall 16
+  - Wall 17
+  - Wall 18
+  - Wall 19
+  - Wall 20
+  - Wall 21
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Bullet (Player)
+  - Bullet (Enemy)
+  - DestoyArea
+  - Scenery
+  - Columns
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1959699241
+    locked: 0
+  - name: Midground
+    uniqueID: 2737215443
+    locked: 0
+  - name: Foreground
+    uniqueID: 404910065
+    locked: 0
+  - name: Sparks
+    uniqueID: 1369744519
+    locked: 0
+  - name: Bullet
+    uniqueID: 3567414253
+    locked: 0
+  - name: Player
+    uniqueID: 926194697
+    locked: 0
